@@ -1,0 +1,13 @@
+
+
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<div>
+<h1>Bu bizim hello sayfamız.</h1>
+
+<p class="lead">Hello sayfasının açıklaması.</p>
+</div>
+ {# the image lives at "public/images/patikaLogo.png" #}
+ <img src="{{asset('images/patikaLogo.png')}}"  align="bottom" ></img>
+{% endblock %}
